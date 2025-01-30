@@ -1,0 +1,101 @@
+package TestNg_Project;
+
+
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.BeforeClass;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.AfterSuite;
+
+public class NewTest {
+	WebDriver driver;
+	@BeforeClass
+	
+	public   void setbrouser() {
+		 driver = new  ChromeDriver();
+		 driver.get("https://www.google.com/");
+		
+	}
+	@Test
+	public void testt1() {
+		
+	}
+	@AfterClass
+
+	public  void closebroser() {
+		
+	}
+	
+	/*
+  @Test(dataProvider = "dp")
+  public void Registration () {
+  
+  
+	  
+	  System.out.println("method");
+  }
+ // @BeforeMethod
+  public void beforeMethod() {
+	  
+	  System.out.println(" before method runs");
+	  
+  }
+
+ // @AfterMethod
+  public void afterMethod() {
+	  
+	  
+	  System.out.println("after method runs");//https://us05web.zoom.us/j/84818975243?pwd=VamCfn0C9HOp3iLCn3ZV2XFKV9LYT9.1https://us05web.zoom.us/j/84818975243?pwd=VamCfn0C9HOp3iLCn3ZV2XFKV9LYT9.1
+	  
+  }
+
+
+  @DataProvider
+  public Object[][] dp() {
+    return new Object[][] {
+      new Object[] { 1, "a" },
+      new Object[] { 2, "b" },
+    };
+  }
+  @BeforeClass
+  public void beforeClass() {
+	  
+	  System.out.println("before classmethod runs");
+  }
+
+  @AfterClass
+  public void afterClass() {
+	  
+	  System.out.println("after Classmethod runs");
+  }
+
+  @Test
+  public void beforeTest() {
+	  System.out.println("before Testmethod runs");
+  }
+
+  @AfterTest
+  public void afterTest() {
+	  System.out.println("after Testmethod runs");
+  }
+
+  @BeforeSuite
+  public void beforeSuite() {
+	  System.out.println("before suite runs");
+  }
+
+  @AfterSuite
+  public void afterSuite() {
+	  System.out.println("after suite runs");
+  }
+  */
+
+}

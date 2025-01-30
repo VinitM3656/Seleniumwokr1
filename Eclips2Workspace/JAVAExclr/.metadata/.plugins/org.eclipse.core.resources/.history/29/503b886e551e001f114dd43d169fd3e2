@@ -1,0 +1,32 @@
+package SuprajaM;
+
+
+class Rectangle{
+	
+	int l ,b;
+	
+	void setData(int l ,int b)
+{
+		
+   this.l=l;
+   this.b=b;
+   }
+
+
+void display() {
+	System.out.println(this.l);
+	System.out.println(this.b);
+	
+}
+}
+public class ThisKey {
+
+	public static void main(String [] args) {
+		
+		Rectangle r1 = new Rectangle();
+		r1.setData(23, 230);
+		
+		r1.display();
+		
+	}
+}

@@ -1,0 +1,19 @@
+package May01;
+
+public abstract class abstract1 {
+	abstract void run() {
+		
+	}
+	
+	class Honda extends abstract1{
+		void run() {
+			System.out.println(" running is safely");
+			
+			public static void main(String [] args) {
+				abstract1 B = new abstract1();
+			B.run();
+			}
+		}
+	}
+
+}

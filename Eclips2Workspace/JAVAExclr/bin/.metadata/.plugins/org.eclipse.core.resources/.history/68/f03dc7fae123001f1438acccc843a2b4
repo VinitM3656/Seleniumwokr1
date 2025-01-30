@@ -1,0 +1,27 @@
+package VinitRevisionAutomation.Locators.RevisonXpath;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class CurrentPageUrl {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		try {
+			
+			ChromeDriver driver = new ChromeDriver();
+			Thread.sleep(3000);
+			
+			driver.get("https://www.bookmyshow.com");
+			String currentURL = driver.getCurrentUrl();
+			
+			System.out.println("Current URL -"+ currentURL);
+			
+		}catch(Exception e) {
+			System.out.println(e.getMessage());
+			
+		}
+
+	}
+
+}

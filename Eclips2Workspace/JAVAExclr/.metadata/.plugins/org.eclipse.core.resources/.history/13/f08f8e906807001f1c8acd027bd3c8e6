@@ -1,0 +1,22 @@
+package May01;
+
+public class Bike {
+	void run() {
+		System.out.println(" buke is running safely");
+		
+	}
+
+}
+class Splendro extends Bike{
+	void run() {
+		System.out.println(" bike is runng is fast");
+		
+	}
+
+
+public static void main(String [] args) {
+Bike B1 = new Bike();
+B1.run();
+}
+
+}

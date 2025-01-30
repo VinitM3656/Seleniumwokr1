@@ -1,0 +1,29 @@
+package CodeSikho;
+
+
+class India{
+	static int x;
+	int y;
+	
+	static private int z ;
+	
+	static void fun1()
+	{
+		s
+		z=11;
+		x=56;
+		
+		System.out.println(z);
+		
+	}
+}
+public class Static {
+
+	public static void main(String[] args) {
+	
+
+		
+		India.fun1();
+	}
+
+}

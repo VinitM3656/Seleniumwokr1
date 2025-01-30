@@ -1,0 +1,52 @@
+package CodeSikho;
+
+class Example{
+	
+	private int x,y;
+	
+	
+	Example(){
+		
+		x=2;
+		y=3;
+		
+	}
+	Example(int p ,int q){// parametries construcotr
+
+		x=p;
+		y=q;
+		
+	}
+	void display() {
+		
+		int g;
+		
+		System.out.println(x+ " ");
+		System.out.println(y);
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+public class Constructor {
+
+	public static void main(String[] args) {
+		
+		Example e1 = new Example(5,6);
+		e1.display();
+		
+		
+		Example e2 = new Example();
+		e2.display();
+		// TODO Auto-generated method stub
+
+	}
+
+}
